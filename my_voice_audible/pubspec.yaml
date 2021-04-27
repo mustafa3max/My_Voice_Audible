@@ -1,0 +1,44 @@
+name: my_voice_audible
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.3
+
+  just_audio: ^0.7.0-nullsafety.1
+  file_picker: ^3.0.1
+
+  google_mobile_ads: ^0.12.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/music1.webp
+    - assets/images/music2.webp
+    - assets/images/music3.webp
+    - assets/images/music4.webp
+    - assets/images/music5.webp
+    - assets/images/user1.webp
+    - assets/images/user2.webp
+    - assets/images/user3.webp
+    - assets/images/user4.webp
+    - assets/images/user5.webp
+    - assets/images/man.webp
+    - assets/images/background_login.webp
+    - assets/images/logo_app.webp
+    - assets/voices/voice1.mp3
+    - assets/voices/voice2.mp3
+    - assets/voices/voice3.wav
+    - assets/voices/voice4.mp3
+    - assets/voices/voice5.wav
